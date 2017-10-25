@@ -1,0 +1,314 @@
+<html>
+
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<style>
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<div class="topnav">
+    <a class="bun-bun-bake-shop" href="../index.html">BUN BUN BAKE SHOP</a>
+
+    <a class="subnav contact" href="../index.html">CONTACT</a>  
+    <a class="subnav cinnamon-rolls" href="cinnamon-roll.html">CINNAMON ROLLS</a>
+    <a class="subnav about" href="../index.html">ABOUT</a>
+    <a class="subnav about" href="cart.html"><img src="../img/icon/Icon-Cart.png" alt=""><p id="shoppingcart"></p></a>
+    
+</div>
+
+<div>
+    <div class="caption-maple">
+
+        <p class="south">SOUTH AMERICAN PECAN       
+        </p>
+    </div>
+       
+     <img src="../img/maple-apple-pecan/carousel.jpg" class="carousel-maple">
+</div>
+
+
+
+<div>
+    <h1 class="cinnamonrolls" id="cinnamon-name">
+        MAPLE APPLE PECAN
+    </h1>
+
+    <div>
+        <img src="../img/maple-apple-pecan/story.jpg"  id="story-img" class="story">
+        <h2 class="story-title">
+                    Story
+        </h2>
+        <p class="story-text">
+            When it comes to buying good cookware, there are a lot of different options. Some people like to buy a matched set of cookware, but seasoned cooks often like to mix and match making an eclectic set that assures them the perfect finish to every dish they create.         
+        </p>
+        <p class="story-text1" >
+            It is hard to know what kind of pan works best for what kind of dish, so keep this handy guideline on hand and you will never choose the wrong type of pan for whatever delectable dish you whip up.
+            When it comes to buying good cookware, there are a lot of different options. Some people like to buy a matched set of cookware, but seasoned cooks often like to mix   
+        </p>
+        
+        <!-- Trigger/Open The Popup Modal -->
+        <button id="myBtn" class="order">
+            <h3>
+                Order
+            </h3>
+        </button>   
+    </div>
+    
+    <div>
+        <h2 class="ingredient-title">
+            Ingredient 
+        </h2>
+        <p class="ingredient-text">
+                Selecting the cookware for your kitchen implies a few certain points you should consider: budget, cooking and eating habits, your family size, etc. One of the most essential points in choosing cookware is the material it is made of. Often, such an important detail is simply overlooked or is considered to be minor. In fact, proper understanding of differences between cookware materials will assist you in making the best choice and further on, will help maintain your cookware in a good shape.
+        </p>
+        <img src="../img/maple-apple-pecan/ingredient.jpg"  class="ingredient-img">
+    </div>
+
+    <div class="process">
+            <img src="../img/maple-apple-pecan/process.jpg"  class="process-img">
+            <h2 class="process-title">
+            Process
+            </h2>
+            <p class="process-text">
+                Parties and family gatherings are popular this time of year. Whether you’re celebrating an anniversary, a birthday, graduation, a holiday or the start of your favorite sport’s season, entertaining can be quick, simple, affordable and fun if you plan ahead.                   
+            </p>
+            <p class="process-text1" >
+                Stock your pantry, refrigerator and freezer with essentials such as precooked, hearty smoked sausage, assorted frozen, refrigerated or boxed side dishes, a variety of vegetables (frozen, fresh or canned), canned or refrigerated soups, and grated cheese for delicious meals in minutes.
+            </p>        
+    </div>
+
+
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal1">
+        
+     <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">
+            <img src="../img/popup/Icon-Close.png" >
+            </span>
+            <img src="../img/popup/maple-apple-pecan.jpg" class="product-img" id="popup-product-img">
+            
+        </div>
+        
+        <div class="tab">
+            <button class="tablinks" id="6-packs">6-packs</button>
+            <button class="tablinks" id="12-packs">12-packs</button>
+        </div>
+
+        <div id="6-pack" class="tabcontent">
+            <div class="amount popup-amount">
+                
+                <h3 class="popup-flavor-text-6"></h3>  
+
+                <input class="popup-product-amount" id="popup-product-amount6" type="text"  value="1" disabled/>  
+                                                 
+                <ul class="button-click popup-button-click">
+                    <li class="amount-decrease"><a href="#" ><img src="../img/icon/decrease.png"><p>-</p></a></li>
+                    <li class="amount-add"><a href="#"><img src="../img/icon/add.png"><p>+</p></a></li>          
+                </ul>                 
+            </div>
+
+            <p class="six-pack-price">$06.00</p>
+
+            <div class="popup-flavor">
+                    <h4>
+                        Flavor:
+                    </h4>
+                    <div class="flavor-multiple" id="flavor-6-pack">
+                        <input type="checkbox" class="single-checkbox" id="cb1" value="MAPLE APPLE PECAN"  checked/>
+                        <label for="cb1"><img src="../img/popup/maple-apple-pecan(small).jpg" class="maple-img"/></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cb2" value="BACON"/>
+                        <label for="cb2"><img src="../img/popup/bacon.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cb3" value="WALNUT"/>
+                        <label for="cb3"><img src="../img/popup/walnut.jpg" /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb4" value="ORIGINAL(GLUTEN FREE)"/>
+                        <label for="cb4"><img src="../img/popup/original-gluten-free.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cb5" value="ORIGINAL(VEGAN)"/>
+                        <label for="cb5"><img src="../img/popup/original-vegan.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb6" value="ORIGINAL"/>
+                        <label for="cb6"><img src="../img/popup/original.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb7" value="PUMPKIN SPICE"/>
+                        <label for="cb7"><img src="../img/popup/pumpkin-spice.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb8" value="CARAMEL PECAN"/>
+                        <label for="cb8"><img src="../img/popup/caramel-pecan.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb9" value="CARROT CAKE"/>
+                        <label for="cb9"><img src="../img/popup/carrot-cake.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb10" value="OLD FASHIONED BUTTERMILK"/>
+                        <label for="cb10"><img src="../img/popup/old-fashioned-buttermilk.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb11" value="STRAWBERRY RHUBARB"/>
+                        <label for="cb11"><img src="../img/popup/strawberry-rhubarb.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cb12" value="BIRTHDAY CAKE"/>
+                        <label for="cb12"><img src="../img/popup/birthday-cake.jpg" /></label>
+ 
+                        <br>
+
+                        <input type="checkbox" class="single-checkbox" id="cb13" value="LEMON LAVENDER"/>
+                        <label for="cb13"><img src="../img/popup/lemon-lavender.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cb14" value="CRANBERRY"/>
+                        <label for="cb14"><img src="../img/popup/cranberry.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cb15" value="BLACKBERRY"/>
+                        <label for="cb15"><img src="../img/popup/blackberry.jpg" /></label>             
+                    </div>
+            </div>
+
+            <button class="button-add-to-cart-6" >Add to Cart</button>
+
+        </div>
+          
+        <div id="12-pack" class="tabcontent">
+
+            <div class="amount popup-amount">
+
+                <h3 class="popup-flavor-text-12"></h3> 
+                        
+                <input class="popup-product-amount" id="popup-product-amount12" type="text"  value="1" disabled/>
+                                        
+                <ul class="button-click popup-button-click">             
+                    <li class="amount-decrease"><a href="#" ><img src="../img/icon/decrease.png"><p>-</p></a></li>   
+                    <li class="amount-add"><a href="#"><img src="../img/icon/add.png"><p>+</p></a></li>
+                </ul>
+                        
+            </div>
+          
+            <p class="twelve-pack-price">$10.00</p> 
+
+            <div class="popup-flavor">
+                    <h4>
+                        Flavor:
+                    </h4>
+
+                    <div class="flavor-multiple" id="flavor-12-pack">
+                        <input type="checkbox" class="single-checkbox" id="cp1" value="MAPLE APPLE PECAN" onclick="return false;" checked/>
+                        <label for="cp1"><img src="../img/popup/maple-apple-pecan(small).jpg"   class="maple-img"/></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cp2" value="BACON" />
+                        <label for="cp2"><img src="../img/popup/bacon.jpg" /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp3" value="WALNUT"/>
+                        <label for="cp3"><img src="../img/popup/walnut.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cp4" value="ORIGINAL(GLUTEN FREE)"/>
+                        <label for="cp4"><img src="../img/popup/original-gluten-free.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cp5" value="ORIGINAL(VEGAN)"/>
+                        <label for="cp5"><img src="../img/popup/original-vegan.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp6" value="ORIGINAL"/>
+                        <label for="cp6"><img src="../img/popup/original.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp7" value="PUMPKIN SPICE"/>
+                        <label for="cp7"><img src="../img/popup/pumpkin-spice.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp8" value="CARAMEL PECAN"/>
+                        <label for="cp8"><img src="../img/popup/caramel-pecan.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp9" value="CARROT CAKE"/>
+                        <label for="cp9"><img src="../img/popup/carrot-cake.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp10" value="OLD FASHIONED BUTTERMILK"/>
+                        <label for="cp10"><img src="../img/popup/old-fashioned-buttermilk.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp11" value="STRAWBERRY RHUBARB"/>
+                        <label for="cp11"><img src="../img/popup/strawberry-rhubarb.jpg"  /></label>
+
+                        <input type="checkbox" class="single-checkbox" id="cp12" value="BIRTHDAY CAKE"/>
+                        <label for="cp12"><img src="../img/popup/birthday-cake.jpg" /></label>
+ 
+                        <br>
+
+                        <input type="checkbox" class="single-checkbox" id="cp13" value="LEMON LAVENDER"/>
+                        <label for="cp13"><img src="../img/popup/lemon-lavender.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cp14" value="CRANBERRY"/>
+                        <label for="cp14"><img src="../img/popup/cranberry.jpg" /></label>
+                        
+                        <input type="checkbox" class="single-checkbox" id="cp15" value="BLACKBERRY"/>
+                        <label for="cp15"><img src="../img/popup/blackberry.jpg" /></label>             
+                    </div>
+                    
+            </div>
+            <button class="button-add-to-cart-12" >Add to Cart</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div>
+        <div class="sm-maple">
+                <ul >
+                        <li>
+                            <a class="" href="#">
+                                twitter
+                             </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                facebook
+                             </a>
+                        </li>
+                        <li>
+                             <a class="" href="#">
+                                instagram
+                             </a>
+                        </li>
+                    </ul>
+                    <p>
+                ©2017 Bun bun bake shop. All rights reserved
+                    </p>
+    
+        </div>
+        
+        <img src="../img/maple-apple-pecan/Footer1.jpg" class="footer-maple">
+    
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/product.js"></script>
+
+
+</html>
+

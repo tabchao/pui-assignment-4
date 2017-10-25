@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bakery</title>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<style>
+ 
+</style>
+</head>
+<body>
+
+
+<div class="topnav">
+    <a class="bun-bun-bake-shop" href="../index.html">BUN BUN BAKE SHOP</a>
+    <a class="subnav contact" href="../index.html">CONTACT</a>  
+    <a class="subnav cinnamon-rolls" href="cinnamon-roll.html">CINNAMON ROLLS</a>
+    <a class="subnav about" href="../index.html">ABOUT</a>
+    <a class="subnav about" href="cart.html"><img src="../img/icon/Icon-Cart.png" alt=""><p id="shoppingcart" class="shoppingcart-cart"></p></a>  
+</div>
+
+<div>
+
+    <h3 class="shopping-cart">
+        Shopping Cart
+    </h3>
+    <ul class="checkout-form">
+        <li class="checkout-form-padding">
+            PRODUCT
+        </li class="checkout-form-padding">
+        <li class="checkout-form-padding">
+            FLAVOR
+        </li class="checkout-form-padding">
+        <li class="checkout-form-padding">
+            SIZE
+        </li>
+        <li class="checkout-form-padding">
+            AMOUNT
+        </li>
+        <li class="checkout-form-padding">
+            PRICE
+        </li>
+        <li class="checkout-form-delete">
+            DELETE
+        </li>
+    </ul>
+
+    <hr class="checkout-form-hr">
+
+    <div id="container-cart-info">
+        <div class="new-item" id="first-new-item">
+            <img class="purchase-product" id="img-detail" src="../img/popup/bacon.jpg" alt="">
+            <div class="flavor">
+                <P id="flavor-detail"> 
+                    Maple Apple Pecan Old Fashioned Milk Original(Gluten-free) 
+                </P>
+            </div>
+            
+            <div class="cart-size" >
+                <P  id="size-detail"> 
+                    6-pack
+                </P>   
+            </div>
+            
+            <div class="amount">
+                <input class="product-amount" id="amount-detail" type="text"  value="1" />
+            </div>
+                    
+            <div class="price">
+                <input class="product-price" id="price-detail" type="text" maxlength="10" value="00.00" readonly/>
+            </div>
+            
+             <div class="delete">
+                <a>
+                    <img class="delete-item" src="../img/icon/icon-close.png" alt="">
+                </a>      
+            </div>    
+        </div>
+    </div>
+
+    <hr class="checkout-form-hr hr-down">
+
+    <!---------------------------------------------------->
+    <!---------------Check Out Price Info------------------>
+    <!---------------------------------------------------->
+    <div class="checkout-info">
+        <p class="checkout-cost">
+            TOTAL PRICE:
+        </p>
+        <p  class="checkout-price" id="checkout-price">
+            $00.00
+        </p>
+        <br>
+        <p class="checkout-cost shipping-cost">
+            SHIPPING COSTS:
+        </p>
+        <p class="checkout-price shipping-cost-price">
+            $0.00
+        </p>
+        <br>
+        <p class="checkout-total">
+            TOTAL:
+        </p>
+        <p class="total-price" id="checkout-total-price">
+            $00.00
+        </p>
+        <br>
+        <p class="before-taxes">
+            *BEFORE TAXES
+        </p>
+
+    </div>
+    
+    <a class="checkout-button" href="">
+        <h4 >
+            Continue Shopping
+        </h4>
+    </a>
+
+    <a class="checkout-button checkout-button-right" href="">
+        <h4 >
+            Check Out
+        </h4>
+    </a>
+   
+</div>
+
+
+<!---------------------------->
+<!-----------Footer----------->
+<!---------------------------->
+
+<div >
+    <div class="social-media-cart">
+            <ul >
+                    <li>
+                        <a class="" href="#">
+                            twitter
+                         </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            facebook
+                         </a>
+                    </li>
+                    <li>
+                         <a class="" href="#">
+                            instagram
+                         </a>
+                    </li>
+                </ul>
+                <p>
+            ©2017 Bun bun bake shop. All rights reserved
+                </p>
+    </div>
+        <img src="../img/home/Home-Footer.jpg" class="footer-cart">
+</div>
+
+
+
+
+</body>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/cart.js"></script>
+
+<script>
+
+
+</script>
+
+
+
+
+
+</html>
